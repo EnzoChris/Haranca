@@ -1,0 +1,152 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    flex-flow: row column;
+    height: 90px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    flex: 20%;
+    
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: #180F4A;
+    font-size: 26px;
+    margin-left: 10%    ;
+
+
+}
+
+#menu{
+    flex: 60%;
+    
+    text-align: right;
+    margin-right: 10%;
+    
+}
+#menu a{
+    padding: 12px 8px;
+    color: #FF2978;
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu a:hover{
+    border-top: #180F4A 3px solid;
+}
+
+
+
+
+#botao {
+    padding: 12px 8px;
+    background-color: #180F4A;
+    border-radius: 5px;
+    margin-left: 60px;
+
+    color: white;
+}
+#botao:hover{
+    background-color: #FF2978;
+    border: #180F4A 2px solid;
+    border-radius: 5px;
+}
+
+
+header{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    
+}
+
+
+#headline{
+    margin-left: 10%;
+    flex: 40%;
+    margin-top: 170px;
+}
+#headline p{
+    color: gray;
+    text-align: left;
+
+}
+
+#h2{
+    letter-spacing: 15px;
+}
+#h11{
+    font-size: 44px;
+    
+}
+
+
+#img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    margin-top: 50px;
+}
+
+
+#contact-btn{
+    background-color: #FF2978;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#contact-btn:hover{
+    background-color: #180F4A;
+    color: #fff;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: #180F4A 2px solid;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0%;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+#servico{
+    display: inline-block;
+    
+}
+#card{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: #FF2978 2px solid;
+    padding: 15px;
+}
+
+
+
+
+
